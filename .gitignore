@@ -1,0 +1,84 @@
+# 특정 디렉토리
+media/
+yolov5/
+data/
+
+# 이미지 파일
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.jJPG
+*.JPEG
+*.PNG
+*.GIF
+*.zip
+*.tar
+*.csv
+
+# 파이썬 가상 환경 관련 파일/디렉토리
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__init__.py
+
+# 장고 관련 파일/디렉토리
+*.log
+db.sqlite3
+*.sqlite3
+/media/
+/static/
+*.secret_key
+*.pyc
+*.pyo
+
+# IDE 또는 코드 에디터 설정 파일
+.idea/
+.vscode/
+*.sublime-*
+*.swo
+*.swp
+*.log
+.DS_Store
+*.bak
+
+# 가중치 파일
+*.weights
+*.pt
+*.pth
+*.pb
+*.onnx
+*.engine
+*.mlmodel
+*.torchscript
+*.tflite
+*.h5
+*.ckpt
+
+# 개발 환경 및 패키지 관련 디렉토리
+venv/
+env/
+env_*/
+ENV/
+log/
+__env/
+
+# 로그 및 캐시 디렉토리
+logs/
+.cache/
+
+# $ git commit -m "first"
+# fatal: detected dubious ownership in repository at 'D:/Development/Vision'
+# 'D:/Development/Vision' is owned by:
+#         'S-1-5-21-912118529-1359556811-810307257-1001'
+# but the current user is:
+#         'S-1-5-21-4289955385-3660255586-1909936644-1001'
+# To add an exception for this directory, call:
+
+#         git config --global --add safe.directory 경로
+
+# Git 저장소의 디렉토리 소유권이 변경되었거나 사용자 계정이 변경되었을 때 위 에러 발생
+# 디렉토리를 예외로 추가하여 해결
+
+# git config --global --add safe.directory 경로
